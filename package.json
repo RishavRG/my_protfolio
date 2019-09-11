@@ -1,0 +1,15 @@
+{
+  "name": "protfolio",
+  "version": "1.0.0",
+  "description": "My Profile Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Rishav Giri",
+  "license": "MIT",
+  "dependencies": {
+    "no": "0.0.1",
+    "node-sass": "^4.12.0"
+  }
+}
