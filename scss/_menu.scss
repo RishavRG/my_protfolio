@@ -88,9 +88,9 @@
       transform: translate3d(0, 0, 0);
     }
 
-    .portrait {
-      width: 250x;
-      height: 250x;
+    .protrait {
+      width: 550px;
+      height: 550px;
       background: url("../img/spiderman.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
@@ -120,6 +120,10 @@
     font-weight: 300;
     text-decoration: none;
     @include easeOut;
+
+    &:hover {
+      color: $secondary-color;
+    }
   }
 }
 
