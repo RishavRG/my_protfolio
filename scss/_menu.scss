@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: rgb(231, 240, 238);
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -89,8 +89,8 @@
     }
 
     .protrait {
-      width: 550px;
-      height: 550px;
+      width: 250px;
+      height: 250px;
       background: url("../img/spiderman.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
@@ -118,6 +118,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
