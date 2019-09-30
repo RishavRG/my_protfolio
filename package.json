@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "My Profile Website",
   "main": "index.js",
+  "homepage": "https://RishavRG.github.io/my_protfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Rishav Giri",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "no": "0.0.1",
     "node-sass": "^4.12.0"
   }
