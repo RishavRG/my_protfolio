@@ -187,7 +187,8 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    height: calc(100vh / 3.3);
+    border: 3px #000 solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
